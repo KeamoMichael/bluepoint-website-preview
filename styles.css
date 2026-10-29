@@ -1,0 +1,136 @@
+@font-face{font-family:Figtree;src:url(fonts/Figtree-Regular.ttf);font-weight:400}@font-face{font-family:Figtree;src:url(fonts/Figtree-Medium.ttf);font-weight:500}@font-face{font-family:Figtree;src:url(fonts/Figtree-SemiBold.ttf);font-weight:600}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:#082650;background:#fff;font-family:Figtree,Arial,sans-serif}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}header{height:108px;display:flex;align-items:center;justify-content:space-between;padding:0 6vw;border-bottom:1px solid #e5e9ee;position:relative;z-index:3;background:white}.logo{width:210px}nav{display:flex;gap:32px;align-items:center;font-size:14px}.cta{display:inline-flex;align-items:center;justify-content:center;gap:24px;padding:17px 26px;background:#082650;color:white;border-radius:40px;font-size:14px}.cta.light{background:white;color:#082650}.cta.gold{background:#c59229;color:#082650}.text-link{display:inline-flex;gap:28px;border-bottom:1px solid currentColor;padding:12px 0;font-size:14px}.wrap{padding:80px 6vw}.eyebrow{font-size:12px;letter-spacing:1.6px;text-transform:uppercase;margin:0 0 26px;color:#907022}h1,h2,h3,p{margin:0}h1{font-size:clamp(48px,6.4vw,96px);font-weight:400;letter-spacing:-.055em;line-height:1.02}h2{font-size:clamp(34px,4vw,58px);font-weight:400;letter-spacing:-.045em;line-height:1.06}h3{font-size:24px;font-weight:500;letter-spacing:-.02em}p{line-height:1.6}.intro{font-size:18px;max-width:440px;margin:28px 0 32px;color:#657184}.section-head{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:44px}.section-head p{max-width:330px;color:#657184}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:34px}.service{border-top:1px solid #bcc7d5;padding:24px 0}.service span{font-size:12px;color:#a17b28}.service h3{margin:38px 0 16px}.service p{font-size:15px;color:#657184;max-width:320px}.service a{margin-top:28px}.contact{background:#082650;color:white;display:flex;align-items:center;justify-content:space-between;gap:40px;padding:64px 6vw}.contact p{margin-top:18px;color:#d3dce9}footer{padding:30px 6vw;display:flex;justify-content:space-between;font-size:12px;color:#657184}.hero-one{position:relative;min-height:700px;overflow:hidden;background:#f5f7fa;padding:100px 6vw}.hero-one .copy{position:relative;z-index:2;max-width:650px}.hero-one h1{max-width:620px}.hero-one .art{position:absolute;width:730px;right:-235px;top:-45px}.hero-one .intro{max-width:390px}.under-hero{display:flex;gap:50px;padding:26px 6vw;border-bottom:1px solid #e5e9ee;font-size:13px}.hero-two{position:relative;min-height:760px;background:#082650;color:white;overflow:hidden;padding:90px 6vw}.hero-two .photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:75% 40%}.hero-two:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,38,80,.98),rgba(8,38,80,.86) 34%,rgba(8,38,80,.15) 75%),linear-gradient(0deg,#082650,transparent 45%)}.hero-two .copy{position:relative;z-index:1;max-width:680px}.hero-two .eyebrow{color:#e0b954}.hero-two .intro{color:#dce4ed}.hero-two .bottom-note{position:absolute;bottom:34px;left:6vw;right:6vw;z-index:1;display:flex;justify-content:space-between;border-top:1px solid #ffffff40;padding-top:22px;font-size:13px}.two .services{gap:0}.two .service{padding:30px;border:1px solid #dce2eb}.hero-three{padding:76px 6vw 60px}.hero-three .headline{display:grid;grid-template-columns:1.9fr 1fr;gap:70px;align-items:end}.hero-three .intro{margin:0 0 24px}.three .panorama{margin:0 6vw;position:relative;height:430px;overflow:hidden}.panorama img{width:100%;height:100%;object-fit:cover;object-position:50% 50%}.panorama .caption{position:absolute;left:30px;bottom:26px;background:white;padding:16px 20px;font-size:13px}.three .service{display:grid;grid-template-columns:45px 1fr 1fr;gap:30px;align-items:start}.three .services{display:block}.three .service h3{margin:0}.three .service p{max-width:none}.three .service a{grid-column:3;margin-top:0}.three .contact{background:#f1f4f8;color:#082650}.three .contact p{color:#657184}.hero-four{display:grid;grid-template-columns:1fr 1fr;min-height:720px}.hero-four .copy{padding:80px 5vw 80px 6vw;background:#082650;color:white}.hero-four .intro{color:#d7e1ee}.hero-four .eyebrow{color:#d5ae52}.hero-four h1{font-size:clamp(48px,5.8vw,84px)}.hero-four .visual{position:relative;background:#f1f4f8;overflow:hidden}.hero-four .art{position:absolute;max-width:none;width:780px;right:-265px;top:15px}.hero-four .visual p{position:absolute;bottom:35px;left:36px;font-size:14px;z-index:1}.four .service{background:#f1f4f8;border:0;padding:30px}.four .service h3{margin-top:55px}.approach{display:grid;grid-template-columns:1fr 1fr;gap:70px;background:#f1f4f8}.steps{display:grid;gap:0}.steps p{padding:20px 0;border-bottom:1px solid #bcc7d5;display:flex;gap:25px}.steps b{font-weight:400;color:#947120}.concept-tag{font-size:11px;color:#657184}.gallery{max-width:1300px;margin:auto;padding:70px 5vw}.gallery h1{max-width:800px}.gallery .intro{max-width:650px}.concept-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:60px}.concept-preview{aspect-ratio:16/10;overflow:hidden;background:#f1f4f8;border:1px solid #dce2eb}.concept-preview img{width:100%;height:100%;object-fit:cover;object-position:top}.concept-grid h3{margin:20px 0 8px}.concept-grid p{color:#657184;font-size:15px}.concept-grid .text-link{margin-top:12px}a:focus-visible{outline:3px solid #c59229;outline-offset:5px}.cta:hover{background:#174675}.cta.light:hover{background:#e8eef5}.cta.gold:hover{background:#deb152}.text-link:hover{color:#b4882c}@media(max-width:760px){header{height:84px;padding:0 6vw}.logo{width:160px}nav a:not(.cta){display:none}nav .cta{font-size:12px;padding:12px 16px}.hero-one{padding-top:55px;min-height:810px}.hero-one .art{width:450px;top:350px;right:-175px}.hero-one .copy{max-width:100%}.hero-one h1{max-width:500px}.under-hero{gap:20px;flex-wrap:wrap}.wrap{padding:54px 6vw}.section-head,.contact{align-items:start;flex-direction:column}.services,.hero-four,.hero-three .headline,.approach,.concept-grid{grid-template-columns:1fr}.service h3{margin-top:20px}.hero-two{padding-top:60px;min-height:740px}.hero-two:after{background:linear-gradient(90deg,rgba(8,38,80,.94),rgba(8,38,80,.5)),linear-gradient(0deg,#082650,transparent)}.hero-two .bottom-note{gap:20px;font-size:11px}.hero-three{padding-top:50px}.hero-three .headline{gap:30px}.three .panorama{height:300px}.three .service{grid-template-columns:25px 1fr;gap:15px}.three .service p,.three .service a{grid-column:2}.hero-four .copy{padding:55px 6vw}.hero-four .visual{height:390px}.hero-four .art{width:500px;right:-160px;top:-40px}.hero-four .visual p{bottom:22px;left:6vw}.approach{gap:30px}footer{gap:20px;flex-wrap:wrap}.gallery{padding-top:45px}}
+
+/* Cinematic concept: transparent hero navigation, solid at section two. */
+.two header{position:fixed;inset:0 0 auto;height:108px;background:transparent;border-color:transparent;color:white;transition:background-color .25s ease,color .25s ease,border-color .25s ease;z-index:20}
+.two header .logo{filter:brightness(0) invert(1);transition:filter .25s ease}
+.two header nav>.cta{background:white;color:#082650}
+.two header.is-solid{background:white;color:#082650;border-color:#e5e9ee}
+.two header.is-solid .logo{filter:none}
+.two header.is-solid nav>.cta{background:#082650;color:white}
+.two .hero-two{padding-top:198px;min-height:868px}
+.two #services,.two #approach{scroll-margin-top:108px}
+@media(max-width:760px){.two header{height:84px}.two .hero-two{padding-top:144px;min-height:824px}.two #services,.two #approach{scroll-margin-top:84px}}
+@media(prefers-reduced-motion:reduce){.two header,.two header .logo{transition:none}}
+
+/* Compact brand lockup across all homepage navigation bars. */
+header .logo{width:150px}
+@media(max-width:760px){header .logo{width:120px}}
+
+/* Centre section links independently of the logo and contact action. */
+@media(min-width:761px){header nav{position:absolute;inset:0;display:flex;justify-content:center;align-items:center;pointer-events:none}header nav>a{pointer-events:auto}header nav>.cta{position:absolute;right:6vw}}
+
+/* Slim navigation proportions. */
+header,.two header{height:76px}
+.two .hero-two{padding-top:166px;min-height:836px}
+.two #services,.two #approach{scroll-margin-top:76px}
+@media(max-width:760px){header,.two header{height:64px}.two .hero-two{padding-top:124px;min-height:804px}.two #services,.two #approach{scroll-margin-top:64px}}
+
+/* Quiet navy glass separates the hero content from navigation. */
+.two header:not(.is-solid){background:rgba(8,38,80,.78);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom-color:rgba(255,255,255,.06)}
+.two header.is-solid{backdrop-filter:none;-webkit-backdrop-filter:none}
+
+/* Feathered top shade, extending beyond the navigation without a hard edge. */
+.two header:not(.is-solid){background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none;border-bottom-color:transparent}
+.two header::before{content:'';position:absolute;inset:0 0 auto;height:calc(100% + 90px);background:linear-gradient(to bottom,rgba(8,38,80,.94) 0%,rgba(8,38,80,.78) 25%,rgba(8,38,80,.43) 52%,rgba(8,38,80,.13) 76%,rgba(8,38,80,0) 100%);pointer-events:none;z-index:-1;opacity:1;transition:opacity .25s ease}
+.two header.is-solid::before{opacity:0}
+@media(prefers-reduced-motion:reduce){.two header::before{transition:none}}
+
+/* Slightly tighter hero after removing its footer strip. */
+.two .hero-two{min-height:796px;padding-bottom:65px}
+@media(max-width:760px){.two .hero-two{min-height:764px;padding-bottom:65px}}
+
+/* Restrained, one-time section entrances; content remains visible without JS. */
+.two .motion-reveal{opacity:0;transform:translateY(20px);transition:opacity .7s cubic-bezier(.22,1,.36,1),transform .7s cubic-bezier(.22,1,.36,1);transition-delay:var(--reveal-delay,0ms)}
+.two .motion-reveal.is-revealed{opacity:1;transform:translateY(0)}
+.two .motion-reveal:focus-within{opacity:1;transform:none;transition-delay:0ms}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.two .motion-reveal{opacity:1;transform:none;transition:none}}
+
+/* A slower editorial reveal and an understated living hero. */
+.two .motion-reveal{transform:translateY(30px);transition-duration:1.35s;transition-timing-function:cubic-bezier(.16,1,.3,1)}
+.two .motion-reveal.is-revealed{transform:translateY(0)}
+@media(prefers-reduced-motion:no-preference){
+.two .hero-two .photo{animation:bluepoint-hero-drift 22s ease-in-out infinite alternate;transform-origin:75% 45%;will-change:transform}
+@keyframes bluepoint-hero-drift{from{transform:scale(1.015) translateX(0)}to{transform:scale(1.075) translateX(-.6%)}}
+}
+@media(prefers-reduced-motion:reduce){.two .motion-reveal{transform:none;transition:none}.two .hero-two .photo{animation:none;will-change:auto}}
+
+/* First appearance: a distinct hero sequence independent of scroll reveals. */
+@media(prefers-reduced-motion:no-preference){
+.two .hero-arriving .copy>h1,.two .hero-arriving .copy>.intro,.two .hero-arriving .copy>.cta{opacity:0;transform:translateY(46px);transition:opacity 1.5s ease,transform 1.7s cubic-bezier(.16,1,.3,1)}
+.two .hero-arriving.hero-arrived .copy>h1,.two .hero-arriving.hero-arrived .copy>.intro,.two .hero-arriving.hero-arrived .copy>.cta{opacity:1;transform:translateY(0)}
+.two .hero-arriving .copy>h1{transition-delay:.45s}
+.two .hero-arriving .copy>.intro{transition-delay:.95s}
+.two .hero-arriving .copy>.cta{transition-delay:1.35s}
+.two .hero-arriving .photo{animation:bluepoint-hero-arrival 3.2s cubic-bezier(.16,1,.3,1) both,bluepoint-hero-drift 22s 3.2s ease-in-out infinite alternate}
+@keyframes bluepoint-hero-arrival{from{opacity:.3;transform:scale(1.13)}to{opacity:1;transform:scale(1.015)}}
+}
+
+/* Typography leads the hero entrance, one masked line at a time. */
+.two .hero-line{display:block;overflow:hidden;padding-bottom:.12em;margin-bottom:-.12em}
+.two .hero-line>span{display:block}
+@media(prefers-reduced-motion:no-preference){
+.two .hero-arriving .copy>h1,.two .hero-arriving.hero-arrived .copy>h1{opacity:1;transform:none;transition:none}
+.two .hero-arriving .hero-line>span{animation:bluepoint-line-reveal 1.8s cubic-bezier(.16,1,.3,1) both;animation-delay:.4s}
+.two .hero-arriving .hero-line:nth-child(2)>span{animation-delay:.75s}
+.two .hero-arriving .copy>.intro{animation:bluepoint-copy-reveal 1.5s 1.3s cubic-bezier(.16,1,.3,1) both;transition:none}
+.two .hero-arriving .copy>.cta{animation:bluepoint-copy-reveal 1.4s 1.7s cubic-bezier(.16,1,.3,1) both;transition:none}
+@keyframes bluepoint-line-reveal{from{opacity:0;transform:translateY(115%)}to{opacity:1;transform:translateY(0)}}
+@keyframes bluepoint-copy-reveal{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+}
+
+/* One continuous image move avoids a transform reset between animations. */
+@media(prefers-reduced-motion:no-preference){.two .hero-two.hero-arriving .photo{animation:bluepoint-image-settle 5s cubic-bezier(.16,1,.3,1) both;transform-origin:75% 45%;will-change:auto}@keyframes bluepoint-image-settle{from{opacity:.3;transform:scale(1.06)}to{opacity:1;transform:scale(1)}}}
+@media(prefers-reduced-motion:reduce){.two .hero-two .photo{animation:none;transform:none}}
+
+/* Soft headline reveal without a visible mask edge. */
+.two .hero-line{overflow:visible}
+@media(prefers-reduced-motion:no-preference){.two .hero-arriving .hero-line>span{animation-name:bluepoint-heading-focus;animation-duration:1.8s;animation-timing-function:cubic-bezier(.16,1,.3,1)}@keyframes bluepoint-heading-focus{0%{opacity:0;filter:blur(12px);transform:translateY(14px)}25%{opacity:.25}100%{opacity:1;filter:blur(0);transform:translateY(0)}}}
+@media(prefers-reduced-motion:reduce){.two .hero-line>span{filter:none;transform:none;opacity:1;animation:none}}
+
+/* Slightly quicker hero typography, preserving its soft stagger. */
+@media(prefers-reduced-motion:no-preference){.two .hero-arriving .hero-line>span{animation-duration:1.5s;animation-delay:.3s}.two .hero-arriving .hero-line:nth-child(2)>span{animation-delay:.55s}.two .hero-arriving .copy>.intro{animation-duration:1.25s;animation-delay:1s}.two .hero-arriving .copy>.cta{animation-duration:1.2s;animation-delay:1.35s}}
+
+/* Small final tightening of hero text timing. */
+@media(prefers-reduced-motion:no-preference){.two .hero-arriving .hero-line>span{animation-duration:1.35s;animation-delay:.25s}.two .hero-arriving .hero-line:nth-child(2)>span{animation-delay:.47s}.two .hero-arriving .copy>.intro{animation-duration:1.15s;animation-delay:.88s}.two .hero-arriving .copy>.cta{animation-duration:1.1s;animation-delay:1.2s}}
+
+/* Tighter button labels and calm colour-only interaction. */
+.two .cta{gap:12px;transition:background-color .22s ease,color .22s ease}
+.two .cta:hover{background:#174675;color:#fff}
+.two .cta.light:hover,.two header:not(.is-solid) nav>.cta:hover{background:#e3ebf5;color:#082650}
+.two header.is-solid nav>.cta:hover{background:#174675;color:#fff}
+.two .text-link{gap:14px;transition:color .22s ease,border-color .22s ease}
+.two .text-link:hover{color:#96701e;border-color:#96701e}
+@media(prefers-reduced-motion:reduce){.two .cta,.two .text-link{transition:none}}
+
+/* Optical alignment of action arrows with button labels. */
+.two .cta,.two .text-link{gap:7px;align-items:center}
+.two .cta>span[aria-hidden],.two .text-link>span[aria-hidden]{position:relative;top:2px;line-height:1}
+
+/* Middle navigation links: colour-only hover in both navbar states. */
+.two header nav>a:not(.cta){transition:color .22s ease}
+.two header:not(.is-solid) nav>a:not(.cta):hover{color:#aab9cd}
+.two header.is-solid nav>a:not(.cta):hover{color:#547092}
+@media(prefers-reduced-motion:reduce){.two header nav>a:not(.cta){transition:none}}
+
+/* Match white-navbar link hover to the service action links. */
+.two header.is-solid nav>a:not(.cta):hover{color:#96701e}
+
+/* Keep the symbol; softly dissolve the wordmark in the solid navbar. */
+.two .nav-brand{display:block;position:relative;width:150px}
+.two .nav-brand .logo{width:100%}
+.two .brand-symbol{clip-path:inset(0 76% 0 0)}
+.two .brand-wordmark{position:absolute;inset:0;clip-path:inset(0 0 0 24%);opacity:1;transition:opacity .45s ease,filter .45s ease}
+.two header.is-solid .brand-wordmark{opacity:0;filter:blur(7px)}
+@media(max-width:760px){.two .nav-brand{width:120px}}
+@media(prefers-reduced-motion:reduce){.two .brand-wordmark{transition:none}}
+
+/* Preserve the entire circular symbol with breathing room at its right edge. */
+.two .brand-symbol{clip-path:inset(0 73% 0 0)}
+.two .brand-wordmark{clip-path:inset(0 0 0 27%)}
+.two .site-footer{display:block;background:#f1f4f8;padding:64px 6vw 26px;color:#082650}
+.two .footer-main{display:grid;grid-template-columns:1.3fr .7fr 1fr;gap:60px;padding-bottom:54px}
+.two .footer-brand img{width:190px}.two .footer-brand p{margin-top:24px;font-size:15px}
+.two .footer-column{display:flex;flex-direction:column;align-items:flex-start;gap:15px;font-size:14px}.two .footer-column h3{font-size:14px;font-weight:600;margin-bottom:7px}.two .footer-column span{color:#657184}
+.two .footer-bottom{border-top:1px solid #d3dce6;padding-top:22px;display:flex;justify-content:space-between;gap:20px;font-size:12px;color:#657184}
+.two .site-footer a{transition:color .22s ease}.two .site-footer a:hover{color:#96701e}
+@media(max-width:760px){.two .footer-main{grid-template-columns:1fr;gap:35px;padding-bottom:38px}.two .footer-bottom{flex-direction:column}.two .footer-column a{overflow-wrap:anywhere;max-width:100%}}

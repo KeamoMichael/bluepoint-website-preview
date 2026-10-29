@@ -1,0 +1,29 @@
+/* Final-review refinements, scoped to the cinematic homepage. */
+.two{--navy:#082650;--muted:#526278;--gold:#96701e}
+.two .skip-link{position:fixed;top:-80px;left:20px;z-index:100;background:white;padding:12px 20px;border-radius:4px}.two .skip-link:focus{top:12px}
+.two .wrap{padding-top:100px;padding-bottom:100px}
+.two .section-head{margin-bottom:54px}.two .section-head p{max-width:350px;font-size:16px;color:var(--muted)}
+.two .services{gap:34px}.two .service{border:0;border-top:1px solid #bcc7d5;padding:26px 0 0;display:flex;flex-direction:column;align-items:flex-start}
+.two .service h3{margin:30px 0 18px}.two .service p{color:var(--muted);max-width:350px;line-height:1.65;flex:1}.two .service .text-link{margin-top:26px}
+.two .approach{gap:8vw}.two .approach .eyebrow,.two .about-section .eyebrow{color:var(--gold);font-size:11px;letter-spacing:1.3px;margin-bottom:24px}
+.two .steps article{display:grid;grid-template-columns:28px 1fr;gap:22px;padding:25px 0;border-bottom:1px solid #cbd4df}.two .steps article:first-child{padding-top:0}.two .steps article:last-child{border-bottom:0;padding-bottom:0}.two .steps article>span{font-size:12px;color:var(--gold);padding-top:5px}.two .steps h3{font-size:23px}.two .steps article p{display:block;border:0;padding:0;margin-top:12px;color:var(--muted);font-size:15px;max-width:380px}
+.two .about-section{display:grid;grid-template-columns:1.15fr 1fr;gap:8vw;align-items:start}.two .about-copy>p{font-size:16px;color:var(--muted);max-width:450px}.two .about-copy .about-lead{font-size:25px;color:var(--navy);line-height:1.3;margin-bottom:22px;letter-spacing:-.6px}
+.two .leader{margin:36px 0 18px;display:flex;gap:18px;align-items:center}.two .leader-line{width:3px;height:48px;background:#c59229}.two .leader h3{font-size:22px}.two .leader small{font-size:14px;font-weight:400;white-space:nowrap}.two .leader p{font-size:14px;color:var(--muted);margin-top:5px}
+.two .contact{padding-top:76px;padding-bottom:76px}.two .contact>div{max-width:670px}.two .contact p{max-width:400px;font-size:16px}.two .contact>.cta{flex-shrink:0}
+.two .site-footer{padding-top:62px}.two .footer-main{gap:40px}.two .footer-column a{line-height:1.5}.two .footer-column a,.two .footer-column span{font-size:14px}
+.two .cta:focus-visible,.two .text-link:focus-visible,.two nav a:focus-visible,.two footer a:focus-visible{outline:2px solid #c59229;outline-offset:5px}
+.two #about,.two #contact{scroll-margin-top:76px}
+@media(min-width:761px) and (max-width:1000px){.two header nav{gap:18px}.two header .nav-brand{width:130px}.two header .cta{padding:13px 17px}.two .footer-main{grid-template-columns:1fr .65fr 1.3fr;gap:25px}.two .footer-column a{overflow-wrap:anywhere}}
+@media(max-width:760px){.two .wrap{padding-top:64px;padding-bottom:64px}.two .section-head{gap:24px;margin-bottom:32px}.two .services{gap:32px}.two .service{padding-top:22px}.two .service h3{margin-top:20px}.two .service p{max-width:none}.two .approach{gap:36px}.two .about-section{grid-template-columns:1fr;gap:32px}.two .about-copy>p{max-width:none}.two .contact{padding-top:60px;padding-bottom:60px;gap:30px}.two .site-footer{padding-top:48px}.two #about,.two #contact{scroll-margin-top:64px}.two header nav{gap:0}.two .hero-two h1{font-size:clamp(38px,7.7vw,58px)}.two .hero-two .intro{font-size:17px}.two .hero-two{min-height:660px;padding-top:150px;padding-bottom:80px}.two .footer-brand img{width:170px}}
+
+.two .mobile-menu-toggle,.two .mobile-navigation{display:none}
+@media(max-width:760px){.two header nav{margin-left:auto;margin-right:14px}.two header nav>.cta{padding:10px 13px}.two .mobile-menu-toggle{display:block;border:0;background:transparent;color:inherit;font:inherit;font-size:13px;padding:12px 0 12px 8px;cursor:pointer}.two .mobile-navigation:not([hidden]){display:flex;position:absolute;top:64px;left:0;right:0;padding:24px 6vw 30px;background:#082650;color:white;flex-direction:column;gap:0;box-shadow:0 12px 20px #08265018}.two .mobile-navigation a{padding:15px 0;border-bottom:1px solid #ffffff24}.two header.is-solid .mobile-navigation{background:white;color:#082650}.two header.is-solid .mobile-navigation a{border-color:#dce2eb}.two .mobile-menu-toggle:focus-visible{outline:2px solid #c59229;outline-offset:3px}}
+
+/* Section eyebrows use title case as written. */
+.two .eyebrow{text-transform:none}
+
+/* Tighter editorial tracking for section eyebrows. */
+.two .approach .eyebrow,.two .about-section .eyebrow{letter-spacing:-.02em}
+
+/* Slightly larger eyebrows with a little more breathing room. */
+.two .approach .eyebrow,.two .about-section .eyebrow{font-size:13px;letter-spacing:.02em}
